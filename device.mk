@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml 
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -371,7 +371,6 @@ PRODUCT_PACKAGES += \
     init.connectivity.common.rc \
     init.connectivity.rc \
     init.modem.rc \
-    # fstab.mt6765 \
     init.mt6765.rc \
     init.mt6765.usb.rc \
     init.project.rc \
@@ -382,9 +381,10 @@ PRODUCT_PACKAGES += \
     meta_init.modem.rc \
     meta_init.project.rc \
     meta_init.rc \
-    multi_init.rc \
+    multi_init.rc 
     # init.recovery.mt6765.rc \
     # ueventd.qcom.rc \
+    # fstab.mt6765 \
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -392,7 +392,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/seccomp/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
     $(DEVICE_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(DEVICE_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    $(DEVICE_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
+    $(DEVICE_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy 
 
 
 PRODUCT_COPY_FILES += \
