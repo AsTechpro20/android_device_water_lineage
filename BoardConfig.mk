@@ -130,7 +130,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/android.hardware.biometrics.fingerprint@2.1-service.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/android.hardware.boot@1.2.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/android.hardware.cas@1.2-service-lazy.xml
