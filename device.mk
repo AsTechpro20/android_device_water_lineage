@@ -207,8 +207,8 @@ PRODUCT_PACKAGES += \
 #    android.hardware.biometrics.fingerprint@2.3-service.water
 
 # DRM
-PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service-lazy.clearkey
+#PRODUCT_PACKAGES += \
+   # android.hardware.drm@1.4-service-lazy.clearkey
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
